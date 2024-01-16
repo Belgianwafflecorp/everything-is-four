@@ -27,15 +27,17 @@
         {
             Console.WriteLine("Want to see more proof of why everything is four?\ty / n");
             string yOrN = Console.ReadLine();
-            while (yOrN != "n" ||  yOrN != "N")
+
+
+            while (yOrN != "n" && yOrN != "N")
             {
                 Console.WriteLine("Give another name, place or object: ");
                 string userInput = Console.ReadLine();
                 int inputLenght = Convert.ToInt32(userInput.Length);
                 Four(inputLenght, userInput, spelledNumbers);
-                Console.WriteLine("Want to see more proof of why everything is four?\ty / n");
-                yOrN = Console.ReadLine();
             }
+            Console.WriteLine("You can't run from the truth.");
+            Console.WriteLine("Four is everything and everywhere");
         }
 
         static void Main(string[] args)
@@ -91,7 +93,57 @@
   "forty-seven",
   "forty-eight",
   "forty-nine",
-  "fifty"
+  "fifty",
+  "fifty-one",
+  "fifty-two",
+  "fifty-three",
+  "fifty-four",
+  "fifty-five",
+  "fifty-six",
+  "fifty-seven",
+  "fifty-eight",
+  "fifty-nine",
+  "sixty",
+  "sixty-one",
+  "sixty-two",
+  "sixty-three",
+  "sixty-four",
+  "sixty-five",
+  "sixty-six",
+  "sixty-seven",
+  "sixty-eight",
+  "sixty-nine",
+  "seventy",
+  "seventy-one",
+  "seventy-two",
+  "seventy-three",
+  "seventy-four",
+  "seventy-five",
+  "seventy-six",
+  "seventy-seven",
+  "seventy-eight",
+  "seventy-nine",
+  "eighty",
+  "eighty-one",
+  "eighty-two",
+  "eighty-three",
+  "eighty-four",
+  "eighty-five",
+  "eighty-six",
+  "eighty-seven",
+  "eighty-eight",
+  "eighty-nine",
+  "ninety",
+  "ninety-one",
+  "ninety-two",
+  "ninety-three",
+  "ninety-four",
+  "ninety-five",
+  "ninety-six",
+  "ninety-seven",
+  "ninety-eight",
+  "ninety-nine",
+  "hundred"
 };
 
 

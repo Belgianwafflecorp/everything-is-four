@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\alles is vier\\everythingIsFour\\everythingIsFour\\everythingIsFour.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\everythingIsFour\\everything-is-four\\everythingIsFour\\everythingIsFour.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\alles is vier\\everythingIsFour\\everythingIsFour\\everythingIsFour.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\github repos\\everythingIsFour\\everything-is-four\\everythingIsFour\\everythingIsFour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\alles is vier\\everythingIsFour\\everythingIsFour\\everythingIsFour.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\github repos\\everythingIsFour\\everything-is-four\\everythingIsFour\\everythingIsFour.csproj",
         "projectName": "everythingIsFour",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\alles is vier\\everythingIsFour\\everythingIsFour\\everythingIsFour.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\everythingIsFour\\everything-is-four\\everythingIsFour\\everythingIsFour.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\alles is vier\\everythingIsFour\\everythingIsFour\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\github repos\\everythingIsFour\\everything-is-four\\everythingIsFour\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
