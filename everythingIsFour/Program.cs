@@ -3,23 +3,37 @@
     internal class Program
     {
 
+        static void Quote()
+        {
+            string[] randomQuote = { "Open your eye's and see that everything is 4", "Break lose of the lies you've been told and trust the 4","Perfection and imperfection are both 4","Believe in the 4","Stop resisting, open your mind to 4",
+                                    "Math problemes? the answer is 4","Four is the sacred number of paradox, the number which reconciles opposites","A square has four sides and four corners",
+                                    "The four horsemen of the apocalypse are a symbol of the end of the world",};
+
+            int quoteAmount = randomQuote.Length -1;
+            Random number = new Random();
+            number.Next(quoteAmount);
+
+            Console.WriteLine("\n\t~ "+randomQuote[number.Next(quoteAmount)]+" ~\n");
+        }
+
         static void Four(int inputLenght, string userInput, string[] spelledNumbers)
         {
             if (inputLenght == 4)
             {
-                Console.WriteLine($"{userInput} lenght = four, just like everything else in the universe.");
+                Console.WriteLine($"\n {userInput} lenght = four, just like everything else in the universe.");
             }
             else
             {
-                Console.WriteLine($"The length of {userInput} = {spelledNumbers[inputLenght]}");
+                Console.WriteLine($" The length of {userInput} = {spelledNumbers[inputLenght]}");
                 string numberName = spelledNumbers[inputLenght];
 
                 while (numberName != "four")
                 {
-                    Console.WriteLine($"The length of {numberName} = {spelledNumbers[numberName.Length]}");
+                    Console.WriteLine($" The length of {numberName} = {spelledNumbers[numberName.Length]}");
                     string newNumberName = spelledNumbers[numberName.Length];
                     numberName = newNumberName;
                 }
+                Quote();
             }
         }
 
@@ -31,13 +45,16 @@
 
             while (yOrN != "n" && yOrN != "N")
             {
-                Console.WriteLine("Give another name, place or object: ");
+                Console.WriteLine("\nGive another name, place or object: ");
                 string userInput = Console.ReadLine();
                 int inputLenght = Convert.ToInt32(userInput.Length);
                 Four(inputLenght, userInput, spelledNumbers);
+
+                Console.WriteLine("Want to see more proof of why everything is four?\ty / n");
+                yOrN = Console.ReadLine();
             }
-            Console.WriteLine("You can't run from the truth.");
-            Console.WriteLine("Four is everything and everywhere");
+            Console.WriteLine(@"          You can't run from the truth.");
+            Console.WriteLine("\tFour is everything and everywhere!");
         }
 
         static void Main(string[] args)

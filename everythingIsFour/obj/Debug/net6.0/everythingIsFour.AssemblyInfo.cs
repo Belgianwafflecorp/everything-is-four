@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("everythingIsFour")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+debb42c9a0b8721342028e2fc4ce50e5a201ef5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78fd18fd1f381b7bd02e189170e2864048a48986")]
 [assembly: System.Reflection.AssemblyProductAttribute("everythingIsFour")]
 [assembly: System.Reflection.AssemblyTitleAttribute("everythingIsFour")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
